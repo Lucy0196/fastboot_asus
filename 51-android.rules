@@ -1,4 +1,4 @@
-#Buat file 51-android.rules di /etc/udev/roules.d/
+#Buat file 51-android.rules di /etc/udev/rules.d/
 
 #Acer
 SUBSYSTEM=="usb", ATTR{idVendor}=="0502", MODE="0664", GROUP="plugdev"
